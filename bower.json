@@ -1,7 +1,7 @@
 {
-  "name": "astudio",
+  "name": "webpack-skeleton",
   "description": "",
-  "main": "gulpfile.babel.js",
+  "main": "webpack.config.js",
   "authors": [
     "shimba"
   ],
@@ -15,8 +15,5 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "reset-css": "^2.2.0",
-    "normalize-css": "^6.0.0"
-  }
+  "dependencies": {}
 }

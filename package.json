@@ -1,7 +1,7 @@
 {
   "name": "webpack-skeleton",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "author": "Vitaly Fomin <vitaly63fomin@gmail.com>",
   "license": "MIT",
   "scripts": {
