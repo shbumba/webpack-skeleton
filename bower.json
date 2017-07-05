@@ -1,0 +1,22 @@
+{
+  "name": "astudio",
+  "description": "",
+  "main": "gulpfile.babel.js",
+  "authors": [
+    "shimba"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reset-css": "^2.2.0",
+    "normalize-css": "^6.0.0"
+  }
+}
