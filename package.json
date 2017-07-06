@@ -38,6 +38,8 @@
     "twig": "^1.10.5",
     "twig-loader": "^0.3.0",
     "uglifyjs-webpack-plugin": "^0.4.6",
+    "vue-loader": "^13.0.0",
+    "vue-template-compiler": "^2.3.4",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0",
     "webpack-merge": "^4.1.0"
