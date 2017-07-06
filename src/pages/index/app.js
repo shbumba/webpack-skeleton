@@ -1,10 +1,21 @@
 import 'normalize.css';
 import './app.pcss';
 
-//import Vuetify from 'vuetify'
 //import App from '../../app'
 
-//Vue.use(Vuetify);
+import App from '../../app'
+import TestVue from './test.vue'
+
+var app = new Vue({
+    el: '#app',
+    components:{
+        testvue: TestVue
+    },
+    data: {
+        message: 'Hello Vue!'
+    }
+});
+
 
 var element = document.createElement('p');
 
