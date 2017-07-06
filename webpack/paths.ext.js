@@ -23,8 +23,7 @@ const paths = {
     src: {
         src: './../src/',
         app: './../src/app/',
-        views: './../src/views/',
-        pages: './../src/pages/'
+        views: './../src/views/'
     }
 };
 
