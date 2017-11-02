@@ -1,13 +1,13 @@
 <template>
-    <v-app id="example" standalone>
+    <div class="app">
         {{ message }}
-    </v-app>
+    </div>
 </template>
 <script>
     export default {
         data () {
             return {
-                message: 'Hello'
+                message: 'Hello!!)'
             }
         }
     }

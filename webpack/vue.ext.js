@@ -31,11 +31,11 @@ if (envMode !== 'dev') {
         option,
         {
             plugins: [
-                 new webpack.DefinePlugin({
-                     'process.env': {
-                         NODE_ENV: '"production"'
-                     }
-                 })
+                new webpack.DefinePlugin({
+                    'process.env': {
+                        NODE_ENV: '"production"'
+                    }
+                })
             ]
         }
     ])

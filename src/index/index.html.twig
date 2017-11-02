@@ -1,4 +1,4 @@
-{% extends './../base.twig' %}
+{% extends './../base.html.twig' %}
 
 {% block title %}Index page{% endblock %}
 {% block page_class %}index-page__wrap{% endblock %}
@@ -8,10 +8,7 @@
 <p>Index text page</p>
 
 {% verbatim %}
-<div id="app">
-	<p>App Vue sey: {{ message }}</p>
-	<p>Test Vue sey: <testvue></testvue></p>
-</div>
+<div id="app"></div>
 {% endverbatim %}
 
 {% endblock %}

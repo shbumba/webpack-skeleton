@@ -1,3 +1,20 @@
 {
-  "presets": ["es2015"]
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "browsers": [
+                        "Chrome >= 52",
+                        "FireFox >= 40",
+                        "Safari >= 7",
+                        "Explorer >= 8"
+                    ]
+                }
+            }
+        ]
+    ],
+    "ignore": [
+        "node_modules"
+    ]
 }

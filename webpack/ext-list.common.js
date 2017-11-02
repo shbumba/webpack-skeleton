@@ -1,6 +1,6 @@
 const merge = require('webpack-merge');
 
-const entries = require('./../src/entries');
+const entries = require('./../entries');
 
 const twigExt = require('./twig.ext');
 const cssExt = require('./css.ext');

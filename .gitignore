@@ -8,6 +8,7 @@
 *.swp
 *.vi
 *.zip
+*.lock
 
 # OS or Editor folders
 ._*

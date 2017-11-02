@@ -20,11 +20,9 @@ const changeDir = function (dir) {
 
 const paths = {
     build: './../dist/',
-    src: {
-        src: './../src/',
-        app: './../src/app/',
-        views: './../src/views/'
-    }
+    src: './../src/',
+    app: './../src/app/',
+    server: './../'
 };
 
 module.exports = changeDir(paths);
